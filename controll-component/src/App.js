@@ -66,6 +66,7 @@ function App() {
   let editRow = (indexnuber) => {
     console.log(indexnuber)
     let editdata=userdata.filter((v, i) => i==indexnuber)[0];
+    setFormdata(editdata)
     console.log(editdata);
 
   }
